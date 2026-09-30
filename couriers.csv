@@ -1,0 +1,5 @@
+Courier,Cost,Expected_Delivery_Days,Pickup_Time,Reliability
+Delhivery,75,2,16:00,0.94
+Blue Dart,110,1,17:00,0.97
+Ecom Express,65,3,15:30,0.91
+DTDC,70,2,16:30,0.92
