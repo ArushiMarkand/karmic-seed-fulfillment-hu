@@ -31,9 +31,27 @@ This project presents an interactive **Fulfillment Hub Application** built insid
 
 ---
 
+## How to Run Locally
+
+### Prerequisites
+* Python 3.8+
+* Jupyter Notebook or JupyterLab (`pip install notebook`)
+
 ## How to Run the Application
 
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/YOUR_GITHUB_USERNAME/karmic-seed-fulfillment-hub.git](https://github.com/YOUR_GITHUB_USERNAME/karmic-seed-fulfillment-hub.git)
    cd karmic-seed-fulfillment-hub
+2. **Install Required Packages**
+Bash
+pip install pandas numpy ipywidgets
+3. **Setup Data Files**
+Ensure orders.csv, inventory.csv, products.csv, and couriers.csv are located in the project root folder.
+
+Note: If running locally, ensure the file paths in Cell 3 of the notebook point to your local directory (e.g., folder_path = './').
+
+4. **Launch Notebook**
+Bash
+jupyter notebook XYZ_Fulfillment_Hub.ipynb
+Select Cell > Run All in the Jupyter top menu bar to render the interactive dashboard and controls.
